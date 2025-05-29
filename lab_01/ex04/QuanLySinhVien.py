@@ -83,7 +83,7 @@ class QuanLySinhVien:
         else:
             sv._hocLuc = "Yếu"
     
-    def showListSinhVien(self, listSV):
+    def showSinhVien(self, listSV):
         print("{:<8} {:<18} {:<8} {:<8} {:<8} {:<8}".format("ID", "Name", "Sex", "Major", "Điểm TB", "Học lực"))
         if (listSV.__len__() > 0):
             for sv in listSV:
